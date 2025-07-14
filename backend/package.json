@@ -1,0 +1,45 @@
+{
+  "name": "ai-content-agent-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for AI Content Agent Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.0",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.11.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4",
+    "joi": "^17.11.0",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.1",
+    "nodemailer": "^6.9.7",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "ai",
+    "content",
+    "manager",
+    "nodejs",
+    "mysql",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
